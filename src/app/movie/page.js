@@ -18,7 +18,7 @@ const Movie = async () => {
   const res = await fetch(url, options);
   const data = await res.json();
   const main_data = data.data;
-  console.table(main_data);
+//   console.table(main_data);
 
   return (
     <>
