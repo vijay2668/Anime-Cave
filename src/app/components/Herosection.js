@@ -28,7 +28,7 @@ const Herosection = ({title, imageUrl}) => {
                     </div>
 
                     <div className={heroStyles.hero_image}>
-                        <Image src="/home1.svg" alt="watching netflix" width={500} height={500}/>
+                        <Image src={imageUrl} alt="watching netflix" width={500} height={500}/>
                     </div>
                 </div>
             </div>
