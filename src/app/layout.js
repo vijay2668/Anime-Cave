@@ -17,6 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/anime-cave-logo.svg" />
+      </head>
       <body className={mulish.className}>
         <Header />
         {children}
